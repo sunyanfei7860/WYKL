@@ -1,0 +1,319 @@
+html,
+body {
+  width: 100%;
+}
+.titleLeft strong {
+  font-size: 24px;
+  color: #000;
+  padding-right: 10px;
+}
+.titleLeft span {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #999;
+  margin-top: 2px;
+}
+.titleRight a {
+  font-size: 15px;
+  color: #999;
+  padding-right: 20px;
+}
+.title {
+  height: 76px;
+  line-height: 73px;
+  width: 100%;
+}
+.topBanner {
+  width: 100%;
+}
+.topBanner a {
+  display: block;
+}
+.topBanner a img {
+  width: 100%;
+  display: block;
+}
+.topNav {
+  height: 30px;
+  width: 100%;
+  background-color: #000;
+  color: #ccc;
+  line-height: 30px;
+}
+.topNav li a {
+  display: block;
+  padding: 0 20px;
+  color: #999;
+}
+.topNav li a:hover {
+  color: #ff2337;
+}
+.topNav .leftNav a:hover {
+  color: #fff;
+}
+.topNav .leftNav .tel {
+  position: relative;
+}
+.topNav .leftNav .erweima {
+  display: none;
+  position: absolute;
+  z-index: 200;
+  text-align: center;
+  width: 116px;
+  padding-top: 10px;
+  left: -10px;
+  background-color: #fff;
+}
+.topNav .leftNav .erweima div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #fff;
+}
+.topNav .leftNav .erweima p {
+  line-height: 16px;
+  color: red;
+}
+.topNav .rightNav .left {
+  position: relative;
+}
+.topNav .rightNav .left .arr {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -2px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-color: #999 transparent transparent;
+  border-style: solid dashed dashed;
+  border-width: 4px 4px 0;
+}
+.topNav .rightNav .list {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 200;
+  background-color: #fff;
+  border-top: none;
+  display: none;
+}
+.topNav .rightNav .list li {
+  margin: 0 4px;
+}
+.topNav .rightNav .list li a {
+  padding: 0 10px;
+  white-space: nowrap;
+}
+.topNav .rightNav .list .erweima {
+  position: relative;
+}
+.topNav .rightNav .list .erweima img {
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  top: -20px;
+  display: none;
+}
+.search {
+  background-color: #fff;
+  padding: 10px 0;
+  width: 100%;
+}
+.search .warper {
+  display: flex;
+}
+.search .warper .leftLogo {
+  flex: 3;
+}
+.search .warper .leftLogo a {
+  display: block;
+  width: 100%;
+  height: 65px;
+  background: url("../img/uploads/logo.png") no-repeat left center;
+  background-size: 70%;
+}
+.search .warper .midSearch {
+  flex: 7;
+}
+.search .warper .midSearch .searchBtn {
+  height: 36px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ff2337;
+  border-radius: 30px;
+  line-height: 36px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  position: relative;
+  font-size: 16px;
+}
+.search .warper .midSearch .searchBtn input[type=text] {
+  width: 88%;
+  font-size: 14px;
+  font-style: italic;
+}
+.search .warper .midSearch .searchBtn .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(270deg, #ff2e64, #ff0003);
+  height: 35px;
+  width: 12%;
+  border-radius: 30px;
+}
+.search .warper .midSearch .searchBtn .btn input {
+  background: url("../img/icon/icon23.png") no-repeat center;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.search .warper .midSearch .searchTips {
+  width: 70%;
+  margin: 10px auto;
+}
+.search .warper .midSearch .searchTips ul {
+  width: 100%;
+  display: flex;
+}
+.search .warper .midSearch .searchTips ul li {
+  flex: 1;
+  text-align: center;
+}
+.search .warper .midSearch .searchTips ul li a:hover {
+  color: #ff2337;
+}
+.search .warper .rightCar {
+  flex: 2;
+}
+.search .warper .rightCar .car {
+  width: 60%;
+  height: 36px;
+  border: 1px solid #ff2337;
+  border-radius: 30px;
+}
+.search .warper .rightCar .car a {
+  display: block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: url("../img/icon/icon2.png") no-repeat 20px center;
+  padding-left: 44px;
+}
+.search .warper .rightCar .car a:hover {
+  color: #ff2337;
+}
+.searchFixed {
+  position: fixed;
+  top: 0;
+  z-index: 202;
+  padding: 4px 0;
+}
+.foot .foot-one {
+  height: 147px;
+  border-bottom: 1px solid #ccc;
+}
+.foot .foot-one ul {
+  width: 100%;
+  display: flex;
+}
+.foot .foot-one ul li {
+  flex: 1;
+  height: 147px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.foot .foot-one ul li .footOneItem {
+  height: 47px;
+}
+.foot .foot-one ul li .footOneItem .foorIcon {
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.foot .foot-one ul li .footOneItem h3 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+.foot .foot-one ul li .footOneItem p {
+  color: #000;
+}
+.foot .foot-two {
+  padding: 45px 0;
+  display: flex;
+}
+.foot .foot-two .footTwoLeft {
+  flex: 2;
+}
+.foot .foot-two .footTwoLeft .footLogo {
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a {
+  display: block;
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a img {
+  display: block;
+  width: 60%;
+}
+.foot .foot-two .footTwoLeft .footContact {
+  margin-top: 10px;
+}
+.foot .foot-two .footTwoLeft .footContact img {
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.foot .foot-two .footTwoMid {
+  flex: 4;
+  display: flex;
+}
+.foot .foot-two .footTwoMid dl {
+  float: left;
+  flex: 1;
+}
+.foot .foot-two .footTwoMid dl dt {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.foot .foot-two .footTwoMid dl dd {
+  line-height: 29px;
+}
+.foot .foot-two .footTwoRight {
+  flex: 1;
+  text-align: center;
+}
+.foot .foot-Three {
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 30px;
+}
+.foot .foot-Three img {
+  vertical-align: middle;
+}
+.foot .foot-Three a {
+  color: #c2c2c2;
+}
+.foot .foot-Three .lastLinks img {
+  height: 30px;
+  margin-right: 6px;
+}

@@ -1,0 +1,631 @@
+.top {
+  height: 30px;
+  background-color: black;
+  width: 100%;
+}
+.top a {
+  color: #999999;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 30px;
+}
+.white :hover {
+  color: white;
+}
+.left_top ul {
+  position: relative;
+}
+.left_top li {
+  float: left;
+  margin-right: 25px;
+}
+.left_top li i {
+  position: absolute;
+  left: 20px;
+  top: -5px;
+  color: #ccc;
+  display: none;
+}
+.left_top li .phone {
+  position: absolute;
+  top: 13px;
+  left: -32px;
+  background-color: white;
+  padding: 5px;
+  z-index: 999999;
+  display: none;
+}
+.left_top li .phone img {
+  margin-top: 5px;
+}
+.left_top li .phone .sanjiao {
+  width: 0px;
+  height: 0px;
+  border-bottom: 8px  #f2f2e2 solid;
+  border-top: 8px transparent solid;
+  border-left: 8px transparent solid;
+  border-right: 8px transparent solid;
+  margin-left: 50px;
+  margin-top: -21px;
+}
+.left_top li p {
+  color: red;
+  text-align: center;
+}
+.xiala:hover .xiangxia:hover {
+  transform: rotateX(180deg);
+  transition: 0.5s;
+}
+.right_top {
+  float: right;
+}
+.right_top a {
+  font-size: 10px;
+  width: 80px;
+  display: block;
+}
+.right_top a:hover {
+  color: red;
+}
+.right_top div {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+.right_top div i {
+  color: #666;
+  font-size: 5px;
+}
+.right_top .youhui {
+  top: 30px;
+  width: 80px;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px #ccc solid;
+  z-index: 9999;
+  display: none;
+  border-top: none;
+}
+.right_top .kefu {
+  top: 30px;
+  width: 80px;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px #ccc solid;
+  z-index: 9999;
+  display: none;
+  border-top: none;
+}
+.right_top .huafei {
+  top: 30px;
+  width: 90px;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px #ccc solid;
+  z-index: 9999;
+  display: none;
+  border-top: none;
+}
+.right_top .xiaofei {
+  top: 30px;
+  width: 90px;
+  margin-right: 10px;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px #ccc solid;
+  z-index: 9999;
+  display: none;
+  border-top: none;
+}
+.right_top .shoucang {
+  top: 30px;
+  width: 80px;
+  padding: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px #ccc solid;
+  z-index: 9999;
+  display: none;
+  border-top: none;
+}
+.logo {
+  height: 65px;
+  margin-top: 20px;
+  width: 210px;
+  float: left;
+}
+.search {
+  float: left;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 135px;
+}
+.search p {
+  margin-top: 45px;
+}
+.search p a {
+  font-size: 13px;
+  color: #999;
+  margin-left: 30px;
+}
+.search p a:hover {
+  text-decoration: underline;
+}
+.search i {
+  position: absolute;
+  color: #ccc;
+  top: 12px;
+  left: 12px;
+}
+.search span {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.search input {
+  border: 2px #ff2337 solid;
+  height: 40px;
+  width: 510px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 20px;
+}
+.search input[type=button] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 40px;
+  background-color: #ff2755;
+  box-sizing: border-box;
+}
+.car {
+  width: 150px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.car i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.car a {
+  width: 105px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 2px #ff2337 solid;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  padding-left: 20px;
+  color: #666;
+  font-size: 14px;
+  float: left;
+  position: relative;
+}
+.car a i {
+  position: absolute;
+  top: -11px;
+  left: 12px;
+}
+.nav {
+  margin-top: 10px;
+  position: relative;
+}
+.nav .all {
+  background: linear-gradient(90deg, red, #ff3264);
+  width: 164px;
+  height: 40px;
+  display: block;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+}
+.nav li {
+  width: 164px;
+  background: linear-gradient(90deg, red, #ff3264);
+  box-sizing: border-box;
+  padding-right: 3px;
+}
+.nav .mei {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.nav .mei .tupian {
+  display: none;
+  position: absolute;
+  left: 164px;
+  top: 0;
+}
+.nav .mei .tupian img {
+  width: 900px;
+  height: 440px;
+}
+.nav .mei a {
+  width: 160px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 2px;
+  display: block;
+  border-top: solid #ccc 1px;
+  box-sizing: border-box;
+}
+.nav .mei a i {
+  float: left;
+  margin-left: 20px;
+}
+.nav .mei a span {
+  float: right;
+  margin-right: 20px;
+  font-family: '宋体';
+}
+.nav .mei a:hover {
+  background: white;
+  color: red;
+}
+.nav .shouye {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nav .shouye li {
+  float: left;
+  background: none;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+.nav .shouye li a {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+.nav .shouye li a:hover {
+  color: red;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url('../img/2/banner.png');
+  background-position-x: -300px;
+}
+.gift {
+  padding-top: 10px;
+  background-color: #46008c;
+}
+.gift .gift_top {
+  height: 60px;
+  background-color: #ff2351;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+.gift .gift_content {
+  background-color: #ffe3e8;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  height: 280px;
+}
+.gift .item {
+  width: 200px;
+  height: 280px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+  position: relative;
+  z-index: 999;
+  float: left;
+}
+.gift .item .hot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff8385;
+  color: white;
+  width: 37px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  margin-left: 0px;
+}
+.gift .item p {
+  font-size: 14px;
+  color: #333;
+  margin-left: 5px;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: 0.5s ease-out;
+}
+.gift .item span {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+.gift .item .price {
+  margin-top: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #e31436;
+}
+.gift .item .price img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
+.gift .item .price span {
+  color: #e31436;
+  font-size: 22px;
+  font-weight: 700;
+}
+.gift .item .price del {
+  color: #999;
+}
+.gift_blue {
+  padding-top: 10px;
+  background-color: #46008c;
+}
+.gift_blue .gift_top {
+  height: 60px;
+  background-color: #2f85eb;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+.gift_blue .gift_content {
+  background-color: #bbd3ff;
+  width: 100%;
+}
+.gift_blue .item {
+  width: 200px;
+  height: 280px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+  position: relative;
+  float: left;
+}
+.gift_blue .item .hot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff8385;
+  color: white;
+  width: 37px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  margin-left: 0px;
+}
+.gift_blue .item p {
+  font-size: 14px;
+  color: #333;
+  margin-left: 5px;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: 0.5s ease-out;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.gift_blue .item span {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+.gift_blue .item .price {
+  margin-top: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #e31436;
+}
+.gift_blue .item .price img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
+.gift_blue .item .price span {
+  color: #e31436;
+  font-size: 22px;
+  font-weight: 700;
+}
+.gift_blue .item .price del {
+  color: #999;
+}
+.item:hover {
+  border: 1px solid red;
+  height: 300px;
+}
+.item:hover p {
+  height: 44px;
+  -webkit-line-clamp: 2;
+  white-space: unset;
+}
+.gift_top1 {
+  background-color: #ff2351;
+  height: 60px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+footer {
+  height: 410px;
+  background-color: white;
+  width: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+footer .item1 {
+  width: 230px;
+  height: 90px;
+  float: left;
+  margin-right: 45px;
+}
+footer .item1 .r {
+  float: left;
+  margin-left: 10px;
+}
+footer .item1 .zheng {
+  background: url(../img/2/icon.png) -750px 0;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+footer .item1 .di {
+  background: url(../img/2/icon.png) -812px 0;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+footer .item1 .tui {
+  background: url(../img/2/icon.png) -873px 0;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+footer .item1 .you {
+  background: url(../img/2/icon.png) -935px 0;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+footer .bon {
+  border-top: 1px #ccc solid;
+  height: 260px;
+}
+footer .bon .bon_left {
+  float: left;
+  margin-top: 10px;
+}
+footer .bon .we .weibo {
+  position: relative;
+}
+footer .bon .we .weibo .xia1 {
+  position: absolute;
+  bottom: -110px;
+  left: -30px;
+  display: none;
+}
+footer .bon .we .weixin {
+  position: relative;
+}
+footer .bon .we .weixin .xia2 {
+  position: absolute;
+  bottom: -110px;
+  left: -30px;
+  display: none;
+}
+footer .bon .we .feixin {
+  position: relative;
+}
+footer .bon .we .feixin .xia3 {
+  position: absolute;
+  bottom: -110px;
+  left: -30px;
+  display: none;
+}
+footer .bon .we a {
+  margin-left: 10px;
+  float: left;
+}
+footer .bon .we a:hover {
+  text-decoration: underline;
+}
+footer .bon .we p {
+  float: left;
+  margin-top: 5px;
+  font-size: 14px;
+}
+footer .bon table {
+  margin-top: 20px;
+  float: left;
+  margin-left: 50px;
+}
+footer .bon table tr th {
+  margin-right: 100px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 19px;
+}
+footer .bon table td a {
+  width: 100px;
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  height: 25px;
+}
+footer .bon table td a:hover {
+  text-decoration: underline;
+}
+footer .bon .bon_right {
+  margin-top: 35px;
+  float: right;
+  margin-right: 130px;
+}
+footer .bon .bon_right p {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.bottom {
+  height: 150px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.bottom p {
+  margin-top: 10px;
+  color: #999999;
+  font-size: 13px;
+}
+.bottom p a {
+  color: #999999;
+  font-size: 13px;
+}
+.bottom p a:hover {
+  text-decoration: underline;
+}
+.bottom .one {
+  width: 85px;
+  height: 30px;
+  margin-top: 10px;
+}
+.bottom .two {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
